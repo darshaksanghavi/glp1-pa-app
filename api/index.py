@@ -27,15 +27,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Prefix all routes with /api to match Vercel's function routing
-app.include_router(patients.router,    prefix="/api/patients",    tags=["patients"])
-app.include_router(eligibility.router, prefix="/api/eligibility", tags=["eligibility"])
-app.include_router(pa_form.router,     prefix="/api/pa-form",     tags=["pa-form"])
-app.include_router(ai.router,          prefix="/api/ai",          tags=["ai"])
-app.include_router(submission.router,  prefix="/api/submit",      tags=["submission"])
-app.include_router(pdf.router,         prefix="/api/pdf",         tags=["pdf"])
+# No /api prefix — Vercel strips it before passing the path to this function
+app.include_router(patients.router,    prefix="/patients",    tags=["patients"])
+app.include_router(eligibility.router, prefix="/eligibility", tags=["eligibility"])
+app.include_router(pa_form.router,     prefix="/pa-form",     tags=["pa-form"])
+app.include_router(ai.router,          prefix="/ai",          tags=["ai"])
+app.include_router(submission.router,  prefix="/submit",      tags=["submission"])
+app.include_router(pdf.router,         prefix="/pdf",         tags=["pdf"])
 
 
-@app.get("/api")
+@app.get("/")
 def root():
     return {"status": "ok"}
