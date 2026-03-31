@@ -1,0 +1,100 @@
+[
+  {
+    "id": "pt-001",
+    "first_name": "Emily",
+    "last_name": "Chen",
+    "date_of_birth": "2011-04-12",
+    "age": 14,
+    "sex": "Female",
+    "mrn": "MRN-0042871",
+    "insurance": "MassHealth",
+    "address": "47 Elm Street, Boston, MA 02115",
+    "phone": "617-555-0142",
+    "diagnoses": [
+      {"code": "E66.01", "display": "Morbid (severe) obesity due to excess calories", "onset_date": "2021-06-10"},
+      {"code": "E78.5",  "display": "Hyperlipidemia, unspecified", "onset_date": "2022-03-15"},
+      {"code": "R73.09", "display": "Prediabetes", "onset_date": "2023-01-20"}
+    ],
+    "medications": [
+      {"name": "Metformin 500 mg", "dose": "500 mg twice daily", "start_date": "2023-02-01"}
+    ],
+    "bmi_history": [
+      {"date": "2024-09-10", "bmi": 36.2, "bmi_percentile": 99.1, "weight_kg": 78.5, "height_cm": 147.3},
+      {"date": "2024-06-05", "bmi": 35.8, "bmi_percentile": 98.9, "weight_kg": 77.4, "height_cm": 147.0},
+      {"date": "2024-03-01", "bmi": 35.1, "bmi_percentile": 98.6, "weight_kg": 75.9, "height_cm": 147.0},
+      {"date": "2023-12-08", "bmi": 34.5, "bmi_percentile": 98.2, "weight_kg": 74.2, "height_cm": 146.5}
+    ],
+    "labs": [
+      {"name": "HbA1c",        "value": "5.8",  "unit": "%",       "date": "2024-09-10", "reference_range": "<5.7"},
+      {"name": "LDL",          "value": "128",  "unit": "mg/dL",   "date": "2024-09-10", "reference_range": "<100"},
+      {"name": "Triglycerides","value": "185",  "unit": "mg/dL",   "date": "2024-09-10", "reference_range": "<150"},
+      {"name": "Fasting glucose","value":"108", "unit": "mg/dL",   "date": "2024-09-10", "reference_range": "70-99"},
+      {"name": "ALT",          "value": "42",   "unit": "U/L",     "date": "2024-09-10", "reference_range": "7-35"}
+    ],
+    "weight_management_program_months": 9,
+    "weight_management_program_note": "Enrolled in Boston Children's Hospital Weight Management Program since January 2024. Completed 9 months of structured dietary counseling (registered dietitian, bi-weekly visits), behavioral therapy (monthly), and supervised exercise program (3x/week). Achieved <3% weight reduction despite adherence.",
+    "provider_name": "Dr. Sarah Nguyen",
+    "provider_npi": "1234567890",
+    "provider_specialty": "Pediatric Endocrinology"
+  },
+  {
+    "id": "pt-002",
+    "first_name": "Marcus",
+    "last_name": "Williams",
+    "date_of_birth": "2012-08-30",
+    "age": 13,
+    "sex": "Male",
+    "mrn": "MRN-0058344",
+    "insurance": "MassHealth",
+    "address": "215 Washington Street, Roxbury, MA 02119",
+    "phone": "617-555-0287",
+    "diagnoses": [
+      {"code": "E66.9", "display": "Obesity, unspecified", "onset_date": "2022-01-15"},
+      {"code": "J96.00", "display": "Obstructive sleep apnea", "onset_date": "2023-05-10"}
+    ],
+    "medications": [],
+    "bmi_history": [
+      {"date": "2024-10-02", "bmi": 33.4, "bmi_percentile": 97.8, "weight_kg": 74.1, "height_cm": 149.1},
+      {"date": "2024-07-14", "bmi": 33.0, "bmi_percentile": 97.5, "weight_kg": 73.0, "height_cm": 148.8},
+      {"date": "2024-04-05", "bmi": 32.5, "bmi_percentile": 97.1, "weight_kg": 71.5, "height_cm": 148.3}
+    ],
+    "labs": [
+      {"name": "HbA1c",         "value": "5.5",  "unit": "%",     "date": "2024-10-02", "reference_range": "<5.7"},
+      {"name": "LDL",           "value": "105",  "unit": "mg/dL", "date": "2024-10-02", "reference_range": "<100"},
+      {"name": "Fasting glucose","value": "92",  "unit": "mg/dL", "date": "2024-10-02", "reference_range": "70-99"}
+    ],
+    "weight_management_program_months": 5,
+    "weight_management_program_note": "Enrolled in BMC Pediatric Weight Clinic for 5 months. Structured dietary modification and exercise counseling. Program slightly under 6-month threshold — clinician review recommended.",
+    "provider_name": "Dr. James Okafor",
+    "provider_npi": "0987654321",
+    "provider_specialty": "Pediatrics"
+  },
+  {
+    "id": "pt-003",
+    "first_name": "Sofia",
+    "last_name": "Martinez",
+    "date_of_birth": "2015-02-18",
+    "age": 10,
+    "sex": "Female",
+    "mrn": "MRN-0071209",
+    "insurance": "MassHealth",
+    "address": "88 Blue Hill Avenue, Dorchester, MA 02124",
+    "phone": "617-555-0399",
+    "diagnoses": [
+      {"code": "E66.9", "display": "Obesity, unspecified", "onset_date": "2023-09-01"}
+    ],
+    "medications": [],
+    "bmi_history": [
+      {"date": "2024-11-01", "bmi": 28.9, "bmi_percentile": 95.2, "weight_kg": 48.2, "height_cm": 129.1}
+    ],
+    "labs": [
+      {"name": "HbA1c",          "value": "5.2", "unit": "%",     "date": "2024-11-01", "reference_range": "<5.7"},
+      {"name": "Fasting glucose", "value": "85", "unit": "mg/dL", "date": "2024-11-01", "reference_range": "70-99"}
+    ],
+    "weight_management_program_months": 2,
+    "weight_management_program_note": "Recently enrolled in school-based wellness program. Only 2 months of structured program participation.",
+    "provider_name": "Dr. Priya Sharma",
+    "provider_npi": "1122334455",
+    "provider_specialty": "Pediatrics"
+  }
+]
