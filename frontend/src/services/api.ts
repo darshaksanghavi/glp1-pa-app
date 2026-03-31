@@ -1,6 +1,6 @@
 import type { Patient, EligibilityResult, PAFormFields, SubmitResponse } from '../types'
 
-const BASE = (import.meta.env.VITE_API_URL ?? '') + '/api'
+const BASE = import.meta.env.VITE_API_URL ?? 'http://localhost:8000'
 
 async function get<T>(path: string): Promise<T> {
   const res = await fetch(`${BASE}${path}`)
